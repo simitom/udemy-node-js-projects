@@ -1,0 +1,23 @@
+For encryption and user authentication use the following installations
+
+
+- Install visual studio 2013 community
+https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx
+
+- Install visual c++ 2008 redistributables (x64)
+https://slproweb.com/products/win32openssl.html
+
+- Install openSSL FULL
+https://slproweb.com/products/win32openSSL.html
+
+- Install Node-gyp
+npm install -g node-gyp  (error might pop up is python is not installed)
+
+- Install bcrypt
+npm install bcrypt 
+
+(if it doesnt work try with
+npm install --save bcryptjs && npm uninstall --save bcrypt)
+
+-- you may need to do this 
+npm install bcrypt --msvs_version=2013
